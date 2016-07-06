@@ -1,0 +1,32 @@
+/*-------------------------------------------------------
+
+     Organism name: Header
+
+-------------------------------------------------------*/
+.geo-content {
+  flex-grow: 2;
+
+  box-sizing: border-box;
+  background-color: $white;
+  padding: 12px;
+  &.geo-content-gray {
+    padding: 12px;
+    background-color: $gray-light;
+  }
+  .geo-content__row {
+    padding: 12px;
+    background-color: $white;
+    &.geo-row--title {
+      background-color: #F8FAFB;
+      margin: -12px -12px 0;
+      padding: 24px;
+      p {
+        font-size: .9em;
+        margin: 5px 0;
+        strong {
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
