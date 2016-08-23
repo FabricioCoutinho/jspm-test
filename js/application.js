@@ -11,6 +11,8 @@ angular.module('app').config(function($routeProvider) {
     .when('/toggles', {templateUrl:'toggles.html'})
     .when('/tables', {templateUrl:'tables.html'})
     .when('/alerts', {templateUrl:'alerts.html'})
+    .when('/cards', {templateUrl:'cards.html'})
+    .when('/menus', {templateUrl:'menus.html'})
     .otherwise({redirectTo:'/'});
 });
 
